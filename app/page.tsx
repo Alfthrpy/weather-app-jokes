@@ -1,11 +1,11 @@
 // app/page.tsx
 'use client'
 import { useState } from 'react';
-import AdditionalInfoCard from '../components/AdditionalInfoCard';
-import LocationInfoCard from '../components/LocationInfoCard';
-import WeatherConditionCard from '../components/WeatherConditionCard';
-import SearchBar from '../components/search_bar';
-import GajeCard from '../components/GajeCard';
+import AdditionalInfoCard from './components/AdditionalInfoCard';
+import LocationInfoCard from './components/LocationInfoCard';
+import WeatherConditionCard from './components/WeatherConditionCard';
+import SearchBar from './components/search_bar';
+import GajeCard from './components/GajeCard';
 
 export default function Home() {
   const [weatherData, setWeatherData] = useState<any>(null);
